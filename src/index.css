@@ -1,0 +1,124 @@
+/* Reset */
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  
+  background: #25344F;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #ffd700;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+/* Search Bar */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.search-box input,
+.search-box select {
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.search-box input:focus,
+.search-box select:focus {
+  outline: none;
+  border: 1px solid #ffd700;
+  box-shadow: 0 0 8px #ffd700a8;
+}
+
+/* Word Container */
+.word-details {
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Word Heading */
+.word-title {
+  font-size: 2.5rem;
+  color: #ffde59;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+/* Part of Speech */
+.word-section {
+  margin-bottom: 2rem;
+}
+
+.word-section h2 {
+  font-size: 1.4rem;
+  color: #ffa534;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.word-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  padding: 0.7rem 1.2rem;
+  margin: 0.3rem 0;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 4px solid #ffd700;
+  border-radius: 6px;
+  color: #dddddd;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .search-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-box input,
+  .search-box select {
+    width: 90%;
+  }
+
+  .word-details {
+    padding: 1.2rem;
+  }
+}

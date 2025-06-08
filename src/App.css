@@ -1,0 +1,95 @@
+.App {
+  
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0c0e12;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main-container {
+  
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.input-panel,
+.result-panel {
+  background:#6F4D38;
+  padding: 2rem;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 300px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(64, 51, 51, 0.1);
+}
+
+.input-panel .MuiTextField-root {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.word-title {
+  font-size: 2rem;
+  color: #ffde59;
+  margin-bottom: 1rem;
+}
+
+.part-of-speech {
+  font-size: 1.2rem;
+  color: #ffa534;
+  margin-top: 1rem;
+}
+
+.definition {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .input-panel,
+  .result-panel {
+    margin: 0 1rem 2rem;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
