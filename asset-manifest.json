@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Dictionary-App/static/css/main.ef7495c7.css",
+    "main.js": "/Dictionary-App/static/js/main.1f5d5de8.js",
+    "index.html": "/Dictionary-App/index.html",
+    "main.ef7495c7.css.map": "/Dictionary-App/static/css/main.ef7495c7.css.map",
+    "main.1f5d5de8.js.map": "/Dictionary-App/static/js/main.1f5d5de8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef7495c7.css",
+    "static/js/main.1f5d5de8.js"
+  ]
+}
