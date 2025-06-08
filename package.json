@@ -1,6 +1,6 @@
 {
   "name": "word-hunt",
-  "homepage": "https://programmingfire.github.io/word-hunt-react",
+  "homepage": "https://lalith301.github.io/Dictionary-App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,6 @@
     "@types/react": "^17.0.18",
     "@types/react-dom": "^17.0.9",
     "axios": "^0.21.1",
-    "gh-pages": "^6.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.1",
@@ -46,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
